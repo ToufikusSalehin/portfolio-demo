@@ -1,0 +1,86 @@
+/* Navigation bar */
+body {
+    background-color: black;
+}
+
+#navigation {
+    display: flex;
+}
+
+.logo img {
+    width: 64px;
+    margin: -13px 2px;
+    padding: 23px 20px;
+    border-radius: 56px;
+}
+
+.navbar {
+    display: block;
+    width: 45%;
+    margin: 2px auto;
+}
+
+.navbar nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar nav ul li {
+    display: flex;
+}
+
+.navbar nav ul li a {
+
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.navbar nav ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+.search input {
+    margin: 18px -5px;
+    padding: 8px 0px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+}
+
+#home {
+    display: flex;
+}
+
+#home .heading {
+    width: 50%;
+    margin: 25px 19px;
+    padding: 12px 21px;
+}
+
+#home .heading h2 {
+    font-size: 50px;
+    color: white;
+}
+
+#home .heading h2 span {
+    color: rgb(167, 39, 39);
+}
+
+#home .heading p {
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+}
+
+#home .profile-img img {
+    margin: 25px 19px;
+    padding: 7px 90px;
+    width: 415px;
+
+}
