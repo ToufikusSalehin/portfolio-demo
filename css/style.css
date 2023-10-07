@@ -84,3 +84,57 @@ body {
     width: 415px;
 
 }
+
+/* Whatsapp button */
+#home .heading button {
+    width: 158px;
+    padding: 4px 6px;
+    font-size: 21px;
+    border-radius: 18px;
+    background-color: #e9cbcb;
+    text-decoration: none;
+}
+
+#home .heading button a {
+    text-decoration: none;
+    color: black;
+}
+
+#home .heading button:hover {
+    background-color: rgb(63, 15, 15);
+    color: #e9cbcb;
+}
+
+/* Pastlife */
+#past-life h2 {
+    text-align: center;
+    font-size: 45px;
+    color: #e9cbcb;
+}
+
+#past-life .about-life {
+    display: flex;
+    flex-direction: column;
+}
+
+#past-life .about-life {
+    display: block;
+    width: 45px;
+    margin: 20px auto;
+}
+
+/* table */
+#past-life .about-life .academic table {
+    border: 1px solid white;
+    padding: 47px;
+    margin: 39px -165px;
+    font-size: 29px;
+    border-radius: 20px;
+    color: white;
+}
+
+#past-life .about-life .academic table tr th {
+    display: block;
+    width: 50px;
+    margin: 5px auto;
+}
